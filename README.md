@@ -6,5 +6,5 @@ This repository contains the code used for the second year Masters research proj
 
 * classification_enrichment_analysis.ipynb - R script for binomial and multiclass classification folowing enrichment analysis.
 
-Additionally, _enrichment_results_merged.xlsx_ table contains GO, DO and HPO enrichment analysis results, and quant_files folder containes _salmon_ output (quant and log files) for RNAseq samples.
+Additionally, _enrichment_results_merged.xlsx_ table contains GO, DO and HPO enrichment analysis results, and _quant_files_ folder containes salmon output (quant and log files) for RNAseq samples.
   

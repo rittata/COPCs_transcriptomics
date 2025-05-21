@@ -2,8 +2,9 @@ This repository contains the code used for the second year Masters research proj
 
 * run_lightweight_salon.sh - BASH script for quantifying reads from raw ME/CFS FASTQ files. Requires initial creation of index file (included as a comment in a code);
 
-* FM_DGE_and_logregression.ipynb - R script for data preprocessing and DGE analysis for fibromyalgia dataset, following the development of Lasso logistic regression model for disease risk prediction;
+* rnaseq-microarray-dge-wgcna.ipynb - R script for data preprocessing, DGE analysis and WGCNA for microarray and RNAseq data;
 
-*  ME-CFS_DGE_and_classification.ipynb - R script to perform DGE analysis and multiclass classification for three ME/CFS datasets.
+* classification_enrichment_analysis.ipynb - R script for binomial and multiclass classification folowing enrichment analysis.
 
+Additionally, _enrichment_results_merged.xlsx_ table contains GO, DO and HPO enrichment analysis results, and _quant_files_ folder containes salmon output (quant and log files) for RNAseq samples.
   

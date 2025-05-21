@@ -1,0 +1,12 @@
+{
+    "salmon_version": "1.10.0",
+    "index": "/media/DATA/MO_projects/human_index_salmon/human_index",
+    "libType": "A",
+    "softclip": [],
+    "mates1": "SRR22930378_1.fastq.gz",
+    "mates2": "SRR22930378_2.fastq.gz",
+    "threads": "35",
+    "validateMappings": [],
+    "output": "quants/SRR22930378_quant",
+    "auxDir": "aux_info"
+}

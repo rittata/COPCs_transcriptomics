@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.0",
+    "index": "/media/DATA/MO_projects/human_index_salmon/human_index",
+    "libType": "A",
+    "mates1": "/media/DATA/MO_projects/CFS_1/fastq_files/SRR23867487_GSM7099227_female_healthy_control_baseline_replicate_1_Homo_sapiens_RNA-Seq_1.fastq.gz",
+    "mates2": "/media/DATA/MO_projects/CFS_1/fastq_files/SRR23867487_GSM7099227_female_healthy_control_baseline_replicate_1_Homo_sapiens_RNA-Seq_2.fastq.gz",
+    "threads": "24",
+    "validateMappings": [],
+    "output": "quants/SRR23867487_GSM7099227_female_healthy_control_baseline_replicate_1_Homo_sapiens_RNA-Seq_quant",
+    "auxDir": "aux_info"
+}

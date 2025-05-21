@@ -1,0 +1,59 @@
+[2025-04-12 14:22:00.993] [jointLog] [info] setting maxHashResizeThreads to 35
+[2025-04-12 14:22:00.993] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2025-04-12 14:22:00.993] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2025-04-12 14:22:00.993] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2025-04-12 14:22:00.993] [jointLog] [info] parsing read library format
+[2025-04-12 14:22:00.993] [jointLog] [info] There is 1 library.
+[2025-04-12 14:22:00.994] [jointLog] [info] Loading pufferfish index
+[2025-04-12 14:22:00.994] [jointLog] [info] Loading dense pufferfish index.
+[2025-04-12 14:22:02.137] [jointLog] [info] done
+[2025-04-12 14:22:02.212] [jointLog] [info] Index contained 194,167 targets
+[2025-04-12 14:22:02.268] [jointLog] [info] Number of decoys : 0
+[2025-04-12 14:22:03.815] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2025-04-12 14:32:39.839] [jointLog] [info] Computed 189,844 rich equivalence classes for further processing
+[2025-04-12 14:32:39.839] [jointLog] [info] Counted 19,538,378 total reads in the equivalence classes 
+[2025-04-12 14:32:39.860] [jointLog] [info] Number of mappings discarded because of alignment score : 227,855,383
+[2025-04-12 14:32:39.860] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 11,781,971
+[2025-04-12 14:32:39.860] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2025-04-12 14:32:39.860] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 20,115,629
+[2025-04-12 14:32:39.860] [jointLog] [info] Mapping rate = 11.4641%
+
+[2025-04-12 14:32:39.860] [jointLog] [info] finished quantifyLibrary()
+[2025-04-12 14:32:39.860] [jointLog] [info] Starting optimizer
+[2025-04-12 14:32:39.988] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2025-04-12 14:32:40.002] [jointLog] [info] iteration = 0 | max rel diff. = 6099.42
+[2025-04-12 14:32:39.840] [fileLog] [info] 
+At end of round 0
+==================
+Observed 170430806 total fragments (170430806 in most recent round)
+
+[2025-04-12 14:32:41.400] [jointLog] [info] iteration = 100 | max rel diff. = 9.85798
+[2025-04-12 14:32:42.790] [jointLog] [info] iteration = 200 | max rel diff. = 18.168
+[2025-04-12 14:32:44.182] [jointLog] [info] iteration = 300 | max rel diff. = 12.6067
+[2025-04-12 14:32:45.553] [jointLog] [info] iteration = 400 | max rel diff. = 20.5556
+[2025-04-12 14:32:46.914] [jointLog] [info] iteration = 500 | max rel diff. = 14.3814
+[2025-04-12 14:32:48.392] [jointLog] [info] iteration = 600 | max rel diff. = 4.36625
+[2025-04-12 14:32:49.820] [jointLog] [info] iteration = 700 | max rel diff. = 7.72886
+[2025-04-12 14:32:51.248] [jointLog] [info] iteration = 800 | max rel diff. = 0.246024
+[2025-04-12 14:32:52.611] [jointLog] [info] iteration = 900 | max rel diff. = 0.121716
+[2025-04-12 14:32:53.970] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.15079
+[2025-04-12 14:32:55.334] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.143069
+[2025-04-12 14:32:56.695] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.939443
+[2025-04-12 14:32:58.056] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.684788
+[2025-04-12 14:32:59.402] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.120955
+[2025-04-12 14:33:00.756] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.0539312
+[2025-04-12 14:33:02.115] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.0671956
+[2025-04-12 14:33:03.481] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.0566493
+[2025-04-12 14:33:04.841] [jointLog] [info] iteration = 1,800 | max rel diff. = 0.0120469
+[2025-04-12 14:33:06.211] [jointLog] [info] iteration = 1,900 | max rel diff. = 0.0405977
+[2025-04-12 14:33:07.574] [jointLog] [info] iteration = 2,000 | max rel diff. = 0.0287286
+[2025-04-12 14:33:08.936] [jointLog] [info] iteration = 2,100 | max rel diff. = 0.0469087
+[2025-04-12 14:33:09.250] [jointLog] [info] iteration = 2,124 | max rel diff. = 0.00583526
+[2025-04-12 14:33:09.303] [jointLog] [info] Finished optimizer
+[2025-04-12 14:33:09.303] [jointLog] [info] writing output 
+
+[2025-04-12 14:33:09.694] [jointLog] [warning] NOTE: Read Lib [[ SRR22930404_1.fastq.gz, SRR22930404_2.fastq.gz]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: quants/SRR22930404_quant/lib_format_counts.json for details
+

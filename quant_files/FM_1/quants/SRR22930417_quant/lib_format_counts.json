@@ -1,0 +1,22 @@
+{
+    "read_files": "[ SRR22930417_1.fastq.gz, SRR22930417_2.fastq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 16767463,
+    "num_assigned_fragments": 16767463,
+    "num_frags_with_concordant_consistent_mappings": 4680593,
+    "num_frags_with_inconsistent_or_orphan_mappings": 12196179,
+    "strand_mapping_bias": 0.00020036180471730294,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 938,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 4680593,
+    "SF": 8946752,
+    "SR": 3248489,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

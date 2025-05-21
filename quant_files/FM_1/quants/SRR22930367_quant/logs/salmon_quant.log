@@ -1,0 +1,52 @@
+[2025-04-11 02:15:33.856] [jointLog] [info] setting maxHashResizeThreads to 35
+[2025-04-11 02:15:33.856] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2025-04-11 02:15:33.856] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2025-04-11 02:15:33.856] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2025-04-11 02:15:33.856] [jointLog] [info] parsing read library format
+[2025-04-11 02:15:33.856] [jointLog] [info] There is 1 library.
+[2025-04-11 02:15:33.856] [jointLog] [info] Loading pufferfish index
+[2025-04-11 02:15:33.856] [jointLog] [info] Loading dense pufferfish index.
+[2025-04-11 02:15:34.943] [jointLog] [info] done
+[2025-04-11 02:15:35.018] [jointLog] [info] Index contained 194,167 targets
+[2025-04-11 02:15:35.075] [jointLog] [info] Number of decoys : 0
+[2025-04-11 02:15:36.778] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2025-04-11 02:24:16.055] [jointLog] [info] Computed 302,976 rich equivalence classes for further processing
+[2025-04-11 02:24:16.055] [jointLog] [info] Counted 17,709,221 total reads in the equivalence classes 
+[2025-04-11 02:24:16.067] [jointLog] [info] Number of mappings discarded because of alignment score : 280,164,464
+[2025-04-11 02:24:16.067] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 18,676,746
+[2025-04-11 02:24:16.067] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2025-04-11 02:24:16.067] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 10,287,016
+[2025-04-11 02:24:16.067] [jointLog] [info] Mapping rate = 13.7093%
+
+[2025-04-11 02:24:16.067] [jointLog] [info] finished quantifyLibrary()
+[2025-04-11 02:24:16.068] [jointLog] [info] Starting optimizer
+[2025-04-11 02:24:16.055] [fileLog] [info] 
+At end of round 0
+==================
+Observed 129176928 total fragments (129176928 in most recent round)
+
+[2025-04-11 02:24:19.052] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2025-04-11 02:24:19.067] [jointLog] [info] iteration = 0 | max rel diff. = 5882.04
+[2025-04-11 02:24:20.651] [jointLog] [info] iteration = 100 | max rel diff. = 19.8592
+[2025-04-11 02:24:22.239] [jointLog] [info] iteration = 200 | max rel diff. = 15.8319
+[2025-04-11 02:24:23.821] [jointLog] [info] iteration = 300 | max rel diff. = 8.15408
+[2025-04-11 02:24:25.408] [jointLog] [info] iteration = 400 | max rel diff. = 9.22902
+[2025-04-11 02:24:26.976] [jointLog] [info] iteration = 500 | max rel diff. = 1.46443
+[2025-04-11 02:24:28.541] [jointLog] [info] iteration = 600 | max rel diff. = 2.91964
+[2025-04-11 02:24:30.106] [jointLog] [info] iteration = 700 | max rel diff. = 4.30538
+[2025-04-11 02:24:31.667] [jointLog] [info] iteration = 800 | max rel diff. = 0.49387
+[2025-04-11 02:24:33.227] [jointLog] [info] iteration = 900 | max rel diff. = 0.0287763
+[2025-04-11 02:24:34.789] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.216247
+[2025-04-11 02:24:36.347] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0569266
+[2025-04-11 02:24:37.903] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0291014
+[2025-04-11 02:24:39.462] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0906423
+[2025-04-11 02:24:41.014] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.959175
+[2025-04-11 02:24:42.560] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.349039
+[2025-04-11 02:24:44.105] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.0545347
+[2025-04-11 02:24:45.650] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.0585247
+[2025-04-11 02:24:47.194] [jointLog] [info] iteration = 1,800 | max rel diff. = 0.0817189
+[2025-04-11 02:24:48.061] [jointLog] [info] iteration = 1,857 | max rel diff. = 0.00945865
+[2025-04-11 02:24:48.115] [jointLog] [info] Finished optimizer
+[2025-04-11 02:24:48.115] [jointLog] [info] writing output 
+

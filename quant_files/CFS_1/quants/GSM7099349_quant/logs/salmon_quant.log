@@ -1,0 +1,81 @@
+[2025-04-09 23:23:58.190] [jointLog] [info] setting maxHashResizeThreads to 24
+[2025-04-09 23:23:58.190] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2025-04-09 23:23:58.190] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2025-04-09 23:23:58.190] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2025-04-09 23:23:58.190] [jointLog] [info] parsing read library format
+[2025-04-09 23:23:58.190] [jointLog] [info] There is 1 library.
+[2025-04-09 23:23:58.191] [jointLog] [info] Loading pufferfish index
+[2025-04-09 23:23:58.191] [jointLog] [info] Loading dense pufferfish index.
+[2025-04-09 23:23:59.422] [jointLog] [info] done
+[2025-04-09 23:23:59.494] [jointLog] [info] Index contained 194,167 targets
+[2025-04-09 23:23:59.550] [jointLog] [info] Number of decoys : 0
+[2025-04-09 23:24:00.667] [jointLog] [info] Automatically detected most likely library type as ISR
+
+[2025-04-09 23:27:47.519] [jointLog] [info] Thread saw mini-batch with a maximum of 1.78% zero probability fragments
+[2025-04-09 23:27:47.657] [jointLog] [info] Thread saw mini-batch with a maximum of 2.00% zero probability fragments
+[2025-04-09 23:27:47.728] [jointLog] [info] Thread saw mini-batch with a maximum of 1.76% zero probability fragments
+[2025-04-09 23:27:47.732] [jointLog] [info] Thread saw mini-batch with a maximum of 1.92% zero probability fragments
+[2025-04-09 23:27:47.760] [jointLog] [info] Thread saw mini-batch with a maximum of 1.76% zero probability fragments
+[2025-04-09 23:27:47.770] [jointLog] [info] Thread saw mini-batch with a maximum of 1.90% zero probability fragments
+[2025-04-09 23:27:47.793] [jointLog] [info] Thread saw mini-batch with a maximum of 1.94% zero probability fragments
+[2025-04-09 23:27:47.796] [jointLog] [info] Thread saw mini-batch with a maximum of 1.84% zero probability fragments
+[2025-04-09 23:27:47.835] [jointLog] [info] Thread saw mini-batch with a maximum of 1.82% zero probability fragments
+[2025-04-09 23:27:47.852] [jointLog] [info] Thread saw mini-batch with a maximum of 1.84% zero probability fragments
+[2025-04-09 23:27:47.867] [jointLog] [info] Thread saw mini-batch with a maximum of 1.84% zero probability fragments
+[2025-04-09 23:27:47.881] [jointLog] [info] Thread saw mini-batch with a maximum of 2.08% zero probability fragments
+[2025-04-09 23:27:47.919] [jointLog] [info] Thread saw mini-batch with a maximum of 1.74% zero probability fragments
+[2025-04-09 23:27:47.920] [jointLog] [info] Thread saw mini-batch with a maximum of 1.88% zero probability fragments
+[2025-04-09 23:27:47.967] [jointLog] [info] Thread saw mini-batch with a maximum of 1.74% zero probability fragments
+[2025-04-09 23:27:47.976] [jointLog] [info] Thread saw mini-batch with a maximum of 1.80% zero probability fragments
+[2025-04-09 23:27:47.981] [jointLog] [info] Thread saw mini-batch with a maximum of 1.96% zero probability fragments
+[2025-04-09 23:27:47.989] [jointLog] [info] Thread saw mini-batch with a maximum of 1.80% zero probability fragments
+[2025-04-09 23:27:48.005] [jointLog] [info] Thread saw mini-batch with a maximum of 2.02% zero probability fragments
+[2025-04-09 23:27:48.007] [jointLog] [info] Thread saw mini-batch with a maximum of 1.82% zero probability fragments
+[2025-04-09 23:27:48.062] [jointLog] [info] Thread saw mini-batch with a maximum of 1.90% zero probability fragments
+[2025-04-09 23:27:48.123] [jointLog] [info] Thread saw mini-batch with a maximum of 1.76% zero probability fragments
+[2025-04-09 23:27:48.131] [jointLog] [info] Thread saw mini-batch with a maximum of 1.78% zero probability fragments
+[2025-04-09 23:27:48.203] [jointLog] [info] Thread saw mini-batch with a maximum of 1.98% zero probability fragments
+[2025-04-09 23:27:48.925] [jointLog] [info] Computed 492,287 rich equivalence classes for further processing
+[2025-04-09 23:27:48.925] [jointLog] [info] Counted 14,785,578 total reads in the equivalence classes 
+[2025-04-09 23:27:48.944] [jointLog] [info] Number of mappings discarded because of alignment score : 112,843,595
+[2025-04-09 23:27:48.944] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 4,657,371
+[2025-04-09 23:27:48.944] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2025-04-09 23:27:48.944] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 10,164,668
+[2025-04-09 23:27:48.944] [jointLog] [info] Mapping rate = 37.2934%
+
+[2025-04-09 23:27:48.944] [jointLog] [info] finished quantifyLibrary()
+[2025-04-09 23:27:48.944] [jointLog] [info] Starting optimizer
+[2025-04-09 23:27:49.122] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2025-04-09 23:27:49.142] [jointLog] [info] iteration = 0 | max rel diff. = 5316.83
+[2025-04-09 23:27:48.926] [fileLog] [info] 
+At end of round 0
+==================
+Observed 39646600 total fragments (39646600 in most recent round)
+
+[2025-04-09 23:27:51.249] [jointLog] [info] iteration = 100 | max rel diff. = 20.5657
+[2025-04-09 23:27:53.360] [jointLog] [info] iteration = 200 | max rel diff. = 17.3647
+[2025-04-09 23:27:55.648] [jointLog] [info] iteration = 300 | max rel diff. = 12.6983
+[2025-04-09 23:27:57.895] [jointLog] [info] iteration = 400 | max rel diff. = 6.36164
+[2025-04-09 23:28:00.006] [jointLog] [info] iteration = 500 | max rel diff. = 3.44502
+[2025-04-09 23:28:02.110] [jointLog] [info] iteration = 600 | max rel diff. = 2.80365
+[2025-04-09 23:28:04.215] [jointLog] [info] iteration = 700 | max rel diff. = 0.268642
+[2025-04-09 23:28:06.319] [jointLog] [info] iteration = 800 | max rel diff. = 0.216196
+[2025-04-09 23:28:08.435] [jointLog] [info] iteration = 900 | max rel diff. = 0.206601
+[2025-04-09 23:28:10.562] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.0496902
+[2025-04-09 23:28:12.669] [jointLog] [info] iteration = 1,100 | max rel diff. = 1.40785
+[2025-04-09 23:28:14.778] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.356532
+[2025-04-09 23:28:16.895] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0469669
+[2025-04-09 23:28:19.031] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.0614451
+[2025-04-09 23:28:21.150] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.283227
+[2025-04-09 23:28:23.270] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.179546
+[2025-04-09 23:28:25.393] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.115393
+[2025-04-09 23:28:27.502] [jointLog] [info] iteration = 1,800 | max rel diff. = 0.175888
+[2025-04-09 23:28:29.634] [jointLog] [info] iteration = 1,900 | max rel diff. = 0.106233
+[2025-04-09 23:28:31.758] [jointLog] [info] iteration = 2,000 | max rel diff. = 0.259532
+[2025-04-09 23:28:33.865] [jointLog] [info] iteration = 2,100 | max rel diff. = 0.1638
+[2025-04-09 23:28:35.980] [jointLog] [info] iteration = 2,200 | max rel diff. = 0.0962183
+[2025-04-09 23:28:38.093] [jointLog] [info] iteration = 2,300 | max rel diff. = 0.0375798
+[2025-04-09 23:28:39.146] [jointLog] [info] iteration = 2,351 | max rel diff. = 0.00392077
+[2025-04-09 23:28:39.193] [jointLog] [info] Finished optimizer
+[2025-04-09 23:28:39.193] [jointLog] [info] writing output 
+

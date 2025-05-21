@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /media/DATA/MO_projects/CFS_1/fastq_files/SRR23867480_GSM7099237_female_healthy_control_baseline_replicate_11_Homo_sapiens_RNA-Seq_1.fastq.gz, /media/DATA/MO_projects/CFS_1/fastq_files/SRR23867480_GSM7099237_female_healthy_control_baseline_replicate_11_Homo_sapiens_RNA-Seq_2.fastq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 21595696,
+    "num_assigned_fragments": 21595696,
+    "num_frags_with_concordant_consistent_mappings": 11462089,
+    "num_frags_with_inconsistent_or_orphan_mappings": 10244664,
+    "strand_mapping_bias": 0.000031930332550923868,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 366,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 11462089,
+    "SF": 8380150,
+    "SR": 1864148,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

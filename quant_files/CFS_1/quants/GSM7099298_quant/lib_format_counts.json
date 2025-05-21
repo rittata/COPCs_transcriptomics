@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /media/DATA/MO_projects/CFS_1/fastq_files/SRR23867367_GSM7099298_female_ME_CFS_patient_baseline_replicate_15_Homo_sapiens_RNA-Seq_1.fastq.gz, /media/DATA/MO_projects/CFS_1/fastq_files/SRR23867367_GSM7099298_female_ME_CFS_patient_baseline_replicate_15_Homo_sapiens_RNA-Seq_2.fastq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 18341807,
+    "num_assigned_fragments": 18341807,
+    "num_frags_with_concordant_consistent_mappings": 8809333,
+    "num_frags_with_inconsistent_or_orphan_mappings": 9618923,
+    "strand_mapping_bias": 0.000055506229297254818,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 489,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 8809333,
+    "SF": 6851116,
+    "SR": 2767318,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

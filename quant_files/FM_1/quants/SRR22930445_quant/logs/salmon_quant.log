@@ -1,0 +1,53 @@
+[2025-04-13 10:23:09.477] [jointLog] [info] setting maxHashResizeThreads to 35
+[2025-04-13 10:23:09.477] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2025-04-13 10:23:09.477] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2025-04-13 10:23:09.477] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2025-04-13 10:23:09.477] [jointLog] [info] parsing read library format
+[2025-04-13 10:23:09.477] [jointLog] [info] There is 1 library.
+[2025-04-13 10:23:09.477] [jointLog] [info] Loading pufferfish index
+[2025-04-13 10:23:09.478] [jointLog] [info] Loading dense pufferfish index.
+[2025-04-13 10:23:10.580] [jointLog] [info] done
+[2025-04-13 10:23:10.659] [jointLog] [info] Index contained 194,167 targets
+[2025-04-13 10:23:10.718] [jointLog] [info] Number of decoys : 0
+[2025-04-13 10:23:12.969] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2025-04-13 10:28:57.923] [jointLog] [info] Computed 207,424 rich equivalence classes for further processing
+[2025-04-13 10:28:57.923] [jointLog] [info] Counted 8,528,686 total reads in the equivalence classes 
+[2025-04-13 10:28:57.935] [jointLog] [info] Number of mappings discarded because of alignment score : 159,667,160
+[2025-04-13 10:28:57.935] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 10,069,913
+[2025-04-13 10:28:57.935] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2025-04-13 10:28:57.935] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 9,182,037
+[2025-04-13 10:28:57.935] [jointLog] [info] Mapping rate = 8.1811%
+
+[2025-04-13 10:28:57.935] [jointLog] [info] finished quantifyLibrary()
+[2025-04-13 10:28:57.936] [jointLog] [info] Starting optimizer
+[2025-04-13 10:28:58.052] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2025-04-13 10:28:58.065] [jointLog] [info] iteration = 0 | max rel diff. = 3632.19
+[2025-04-13 10:28:57.923] [fileLog] [info] 
+At end of round 0
+==================
+Observed 104248651 total fragments (104248651 in most recent round)
+
+[2025-04-13 10:28:59.449] [jointLog] [info] iteration = 100 | max rel diff. = 19.6189
+[2025-04-13 10:29:00.831] [jointLog] [info] iteration = 200 | max rel diff. = 13.7989
+[2025-04-13 10:29:02.213] [jointLog] [info] iteration = 300 | max rel diff. = 18.6502
+[2025-04-13 10:29:03.585] [jointLog] [info] iteration = 400 | max rel diff. = 0.79873
+[2025-04-13 10:29:04.954] [jointLog] [info] iteration = 500 | max rel diff. = 0.570899
+[2025-04-13 10:29:06.325] [jointLog] [info] iteration = 600 | max rel diff. = 0.455693
+[2025-04-13 10:29:07.696] [jointLog] [info] iteration = 700 | max rel diff. = 0.686763
+[2025-04-13 10:29:09.067] [jointLog] [info] iteration = 800 | max rel diff. = 0.40495
+[2025-04-13 10:29:10.440] [jointLog] [info] iteration = 900 | max rel diff. = 0.453927
+[2025-04-13 10:29:11.814] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.582182
+[2025-04-13 10:29:13.191] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0742756
+[2025-04-13 10:29:14.569] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.456874
+[2025-04-13 10:29:15.944] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0238403
+[2025-04-13 10:29:17.316] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.0559896
+[2025-04-13 10:29:18.687] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.0526959
+[2025-04-13 10:29:19.057] [jointLog] [info] iteration = 1,528 | max rel diff. = 0.00281995
+[2025-04-13 10:29:19.088] [jointLog] [info] Finished optimizer
+[2025-04-13 10:29:19.088] [jointLog] [info] writing output 
+
+[2025-04-13 10:29:19.377] [jointLog] [warning] NOTE: Read Lib [[ SRR22930445_1.fastq.gz, SRR22930445_2.fastq.gz]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: quants/SRR22930445_quant/lib_format_counts.json for details
+
